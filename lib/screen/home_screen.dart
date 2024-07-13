@@ -11,25 +11,28 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Home'),
       ),
-      body: Container(
-        child: Row(
-          children: [
-            Container(
-              color: Colors.red,
-              height: 120,
-              width: 120,
-            ),
-            Container(
-              color: Colors.green,
-              height: 120,
-              width: 200,
-            ),
-            Container(
-              color: Colors.blue,
-              height: 200,
-              width: 120,
-            ),
-          ],
+      body: Center(
+        child: Container(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                color: Colors.red,
+                height: 120,
+                width: 120,
+              ),
+              Container(
+                color: Colors.green,
+                height: 120,
+                width: 200,
+              ),
+              Container(
+                color: Colors.blue,
+                height: 200,
+                width: 120,
+              ),
+            ],
+          ),
         ),
       ),
     );
